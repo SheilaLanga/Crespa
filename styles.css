@@ -1,0 +1,205 @@
+#title{
+	background-color: #ffa5a5;
+	padding: 3% 15%;
+	color:#fff;
+} 
+h1, h2, h3 {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: bold; 
+}
+
+h6, p{
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+p{
+	color:#8f8f8f;
+}
+
+/*Navbar*/
+.navbar-brand{
+	font-family: "Pacifico";
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+
+.nav-item{
+
+	padding: 0.18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+}
+
+/*Download buttons*/
+.DownloadButton{
+	margin: 5% 3% 5% 0;
+	padding-bottom: 30%; 
+
+}
+
+/*Title image*/
+.TitleImage{
+	width: 80%;
+	border-radius: 100%;
+	right: 30%;
+
+}
+
+.intro{
+	padding-top: 10%;
+	padding-right: 20%;
+}
+/**Features*/
+
+#Info{
+	padding:7% 15%;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 1;	
+
+}
+.Info-text{
+	font-family: 'Pacifico';
+}
+.Info-image{
+	width: 25%;
+	border-radius: 100%;
+	padding-bottom: 5%;
+}
+
+#features{
+	padding: 9% 15%;
+	background-color: #fff;
+}
+
+.features-icon{
+	text-align: center;
+
+}
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.icon:hover{
+	color:#ff4c68;
+}
+
+#testimonials{
+	padding: 7% 15%;
+	background-color:#fa7f72;
+;
+	color: #fff;
+	text-align: center;
+}
+.testimonials-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.linebreak{
+	border-top: dotted 10px #fa7f72;
+	border-bottom: none;
+	border-left: none;
+	border-right: none; 
+	border-spacing: 5px;
+	margin: auto;
+	width: 10%;
+
+	}
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+.pricing-column{
+	padding: 2% 3%;
+}
+
+#cta{
+	background-color: #fa7f72;
+	padding: 4% 8%;
+	text-align: center;
+	color: #fff;
+
+}
+#press{
+	background-color:#fa7f72 ;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.press-image{
+	width: 8%;
+	margin: 30px 30px 40px;
+}
+
+#footer{
+padding: 7% 10%;
+text-align: center;
+color: #8f8f8f;
+padding-bottom: 20px;
+
+}
+
+.footericons{
+color: #8f8f8f;
+text-decoration: none;
+}
+.socialicon{
+	margin:20px 10px;
+	text-decoration: none;
+}
+
+.socialicon:hover{
+	color: #ff4c68;
+}
+
+/* Repositioning techniques*/
+
+@media (max-width:1028px){
+	.TitleImage{
+	width: 80%;
+	transform: rotate(0);
+	position: static;
+
+	#title{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
